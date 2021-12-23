@@ -22,12 +22,13 @@ body {
 
 /*-- Styling typography --*/
 
-h1, h2 {
+h1,
+h2 {
     color: #87460D;
 }
 
-h1{
-    font-family:  "neue-haas-grotesk-text", sans-serif;
+h1 {
+    font-family: "neue-haas-grotesk-text", sans-serif;
     color: #f9f9f9;
     text-align: center;
     font-size: 4.653rem;
@@ -35,17 +36,18 @@ h1{
 
 }
 
-section{
+section {
     line-height: 30px;
 }
 
-p{
+p {
     font-family: " neue-haas-grotesk-text", sans-serif;
     font-style: normal;
     text-align: justify;
 }
 
-p, blockquote {
+p,
+blockquote {
     margin-bottom: 1.5rem;
     line-height: 1.4
 }
@@ -54,26 +56,26 @@ h2 {
     margin: 3em 0 1em 0;
     font-style: italic;
     margin-top: 1em;
-    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-style: italic;
     color: #F9f9f9;
     line-height: 3em;
     text-align: center;
-  
+
 }
 
-h3 { 
+h3 {
     font-size: 1.877rem;
     margin: 3em 0 1em 0;
-    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     color: #FAA307;
     font-style: normal;
 }
 
-h4{
+h4 {
     font-size: 1rem;
     margin: 3em 0 1em 0;
-    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     color: #FAA307;
     font-style: normal;
 }
@@ -110,7 +112,7 @@ a {
 }
 
 a:hover {
-    color:#FAA307;
+    color: #FAA307;
     border-bottom: 1px dotted;
 }
 
@@ -133,11 +135,12 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 20px;
+    margin: 15px;
     font-size: 1.2em;
 
-    
+
 }
+
 .links {
     padding: 0;
 }
@@ -158,7 +161,7 @@ footer {
     text-align: center;
     font-size: 0.75rem;
     margin: 6em 0 3em 0;
-    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     background-color: #252422;
     color: #f9f9f9;
 }
@@ -166,19 +169,19 @@ footer {
 /*---schultz image formatting---*/
 
 
-.headercontainer{
+.headercontainer {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
     text-align: left;
 }
 
-.headertext{
+.headertext {
     display: flex;
     flex-shrink: 0;
 }
 
-.paragraph1{
+.paragraph1 {
     align-self: center;
     margin-right: 2.5em;
     margin-top: 1.9em;
@@ -187,14 +190,14 @@ footer {
 
 /*nav formatting*/
 
-nav{
+nav {
     background-color: #252422;
-    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-size: 0.5em;
 }
 
 
-nav:hover{
+nav:hover {
     border-bottom: none;
     color: #FAA307;
     transition: all 0.3s ease-in-out;
@@ -204,7 +207,7 @@ nav:hover{
 
 /* other images formatting*/
 
-.marketsqimg{
+.marketsqimg {
     display: flex;
     margin: auto;
     padding: 100;
@@ -214,7 +217,7 @@ nav:hover{
 }
 
 
-.bacchusimg{
+.bacchusimg {
     display: flex;
     margin: auto;
     padding: 100;
@@ -223,7 +226,7 @@ nav:hover{
 
 }
 
-.stryjskaimg{
+.stryjskaimg {
     display: flex;
     margin: auto;
     padding: 100;
@@ -233,23 +236,23 @@ nav:hover{
 
 }
 
-footer{
+footer {
     font-style: italic;
-    font-family:  "neue-haas-grotesk-text", sans-serif;
+    font-family: "neue-haas-grotesk-text", sans-serif;
     font-size: 0.9em;
     justify-content: center;
     background-color: #252422;
     color: #f9f9f9;
 }
 
-.buttons{
+.buttons {
     color: #f9f9f9;
     background-color: #252422;
     width: 100%;
 
 }
 
-.connections{
+.connections {
     list-style: none;
     display: inline-flex;
     margin-bottom: 2em;
@@ -260,34 +263,34 @@ footer{
 
 }
 
-.images{
+.images {
     justify-content: flex-end;
 }
 
-blockquote{
+blockquote {
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-style: italic;
     font-size: 19px;
     justify-content: center;
 }
 
-.introcontainer{
-    display:flex;
-    flex-direction: row;   
+.introcontainer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     align-items: center;
 }
 
-.introimage{
+.introimage {
     flex: 35%;
-    
+
 }
 
-.introtext{
+.introtext {
     flex: 60%;
     margin: 0 3em 0 0;
-    
+
 }
 
 .ideo1 {
@@ -296,36 +299,36 @@ blockquote{
 
 }
 
-b{
+b {
     color: #FAA307;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     color: #FFBD47;
 
 }
 
-.dtcontainer{
-    display:flex;
-    flex-direction: row;   
+.dtcontainer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     align-items: center;
 }
 
-.dtimage{
+.dtimage {
     flex: 15%;
-    
+
 }
 
-.designtext{
+.designtext {
     flex: 70%;
     margin: 0 3em 0 0;
-    
+
 }
 
 .man {
@@ -334,11 +337,11 @@ a{
 
 }
 
-.ideoucontainer{
-    display:flex;
-    flex-direction: row-reverse;   
+.ideoucontainer {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     align-items: center;
 }
 
@@ -346,7 +349,7 @@ a{
     flex: 10%;
 }
 
-.ideoutext{
+.ideoutext {
     flex: 60%;
     margin: 3em 0 0 0;
 }
@@ -356,9 +359,9 @@ a{
     align-items: center;
 }
 
-.ideodtcontainer{
-    display:flex;
-    flex-direction: row;   
+.ideodtcontainer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -370,21 +373,21 @@ a{
 
 }
 
-.ideodttext{
+.ideodttext {
     flex: 60%;
     margin: 0 3em 0 0;
 }
 
 .imggroup {
-    width:50%;
+    width: 50%;
     align-self: center;
 }
 
 
 
-.importancecontainer{
-    display:flex;
-    flex-direction: row;   
+.importancecontainer {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -396,24 +399,37 @@ a{
 
 }
 
-.importancetext{
+.importancetext {
     flex: 60%;
     margin: 0 3em 0 0;
 }
 
 .imggroup {
-    width:50%;
+    width: 50%;
     align-self: center;
 }
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+    #primary {
+        width: 67%;
+    }
+
+    #secondary {
+        width: 30%;
+        margin-left: 3%;
+    }
 }
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+    #primary {
+        width: 100%;
+    }
+
+    #secondary {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
 }

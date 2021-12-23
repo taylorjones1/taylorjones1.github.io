@@ -322,6 +322,12 @@ a {
     size: 200%;
 }
 
+.importance{
+    flex: 10%;
+    size: 200%;
+}
+
+
 .ideoutext {
     flex: 60%;
     margin: 3em 0 0 0;

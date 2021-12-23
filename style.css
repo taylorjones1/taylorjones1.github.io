@@ -207,34 +207,6 @@ nav:hover {
 
 /* other images formatting*/
 
-.marketsqimg {
-    display: flex;
-    margin: auto;
-    padding: 100;
-    max-width: 120%;
-    justify-content: center;
-
-}
-
-
-.bacchusimg {
-    display: flex;
-    margin: auto;
-    padding: 100;
-    max-width: 120%;
-    justify-content: center;
-
-}
-
-.stryjskaimg {
-    display: flex;
-    margin: auto;
-    padding: 100;
-    max-width: 120%;
-    justify-content: center;
-    margin-bottom: 2em;
-
-}
 
 footer {
     font-style: italic;
@@ -347,6 +319,7 @@ a {
 
 .ideouimage {
     flex: 10%;
+    size: 200%;
 }
 
 .ideoutext {

@@ -1,0 +1,407 @@
+/*-- CSS Reset --*/
+/* * {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+} */
+
+/*-- Main structural styling--*/
+
+body {
+    background: #252422;
+    color: #f9f9f9;
+    font-size: 16px;
+    max-width: 1000px;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*-- Styling typography --*/
+
+h1, h2 {
+    color: #87460D;
+}
+
+h1{
+    font-family:  "neue-haas-grotesk-text", sans-serif;
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 4.653rem;
+    margin-top: 2em;
+
+}
+
+section{
+    line-height: 30px;
+}
+
+p{
+    font-family: " neue-haas-grotesk-text", sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4
+}
+
+h2 {
+    margin: 3em 0 1em 0;
+    font-style: italic;
+    margin-top: 1em;
+    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    color: #F9f9f9;
+    line-height: 3em;
+    text-align: center;
+  
+}
+
+h3 { 
+    font-size: 1.877rem;
+    margin: 3em 0 1em 0;
+    font-family:"neue-haas-grotesk-text", sans-serif;
+    color: #FAA307;
+    font-style: normal;
+}
+
+h4{
+    font-size: 1rem;
+    margin: 3em 0 1em 0;
+    font-family:"neue-haas-grotesk-text", sans-serif;
+    color: #FAA307;
+    font-style: normal;
+}
+
+blockquote {
+    font-size: 1.414rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.75rem
+}
+
+cite {
+    font-size: 0.8em;
+    color: #333333;
+    font-style: normal;
+}
+
+header h2 {
+    font-size: 2.827rem;
+    font-style: italic;
+    margin-top: 0rem;
+    margin-bottom: 0.5em;
+
+}
+
+header p {
+    font-size: 1.3rem
+}
+
+/*-- Styling links --*/
+a {
+    color: #87460D;
+    text-decoration: none
+}
+
+a:hover {
+    color:#FAA307;
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #87460D;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    font-size: 1.35em;
+
+    
+}
+.links {
+    padding: 0;
+}
+
+nav a {
+    color: #f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(255, 187, 127);
+    transition: all 0.3s ease-in-out
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 6em 0 3em 0;
+    font-family:"neue-haas-grotesk-text", sans-serif;
+    background-color: #252422;
+    color: #f9f9f9;
+}
+
+/*---schultz image formatting---*/
+
+
+.headercontainer{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.headertext{
+    display: flex;
+    flex-shrink: 0;
+}
+
+.paragraph1{
+    align-self: center;
+    margin-right: 2.5em;
+    margin-top: 1.9em;
+    font-size: 18px;
+}
+
+/*nav formatting*/
+
+nav{
+    background-color: #252422;
+    font-family:"neue-haas-grotesk-text", sans-serif;
+    font-size: 0.5em;
+}
+
+
+nav:hover{
+    border-bottom: none;
+    color: #FAA307;
+    transition: all 0.3s ease-in-out;
+    font-style: normal;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+}
+
+/* other images formatting*/
+
+.marketsqimg{
+    display: flex;
+    margin: auto;
+    padding: 100;
+    max-width: 120%;
+    justify-content: center;
+
+}
+
+
+.bacchusimg{
+    display: flex;
+    margin: auto;
+    padding: 100;
+    max-width: 120%;
+    justify-content: center;
+
+}
+
+.stryjskaimg{
+    display: flex;
+    margin: auto;
+    padding: 100;
+    max-width: 120%;
+    justify-content: center;
+    margin-bottom: 2em;
+
+}
+
+footer{
+    font-style: italic;
+    font-family:  "neue-haas-grotesk-text", sans-serif;
+    font-size: 0.9em;
+    justify-content: center;
+    background-color: #252422;
+    color: #f9f9f9;
+}
+
+.buttons{
+    color: #f9f9f9;
+    background-color: #252422;
+    width: 100%;
+
+}
+
+.connections{
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.images{
+    justify-content: flex-end;
+}
+
+blockquote{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    font-size: 19px;
+    justify-content: center;
+}
+
+.introcontainer{
+    display:flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
+
+.introimage{
+    flex: 35%;
+    
+}
+
+.introtext{
+    flex: 60%;
+    margin: 0 3em 0 0;
+    
+}
+
+.ideo1 {
+    width: 100%;
+    align-items: center;
+
+}
+
+b{
+    color: #FAA307;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: #FFBD47;
+
+}
+
+.dtcontainer{
+    display:flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
+
+.dtimage{
+    flex: 15%;
+    
+}
+
+.designtext{
+    flex: 70%;
+    margin: 0 3em 0 0;
+    
+}
+
+.man {
+    width: 100%;
+    align-items: center;
+
+}
+
+.ideoucontainer{
+    display:flex;
+    flex-direction: row-reverse;   
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
+
+.ideouimage {
+    flex: 10%;
+}
+
+.ideoutext{
+    flex: 60%;
+    margin: 3em 0 0 0;
+}
+
+.ideou {
+    width: 90%;
+    align-items: center;
+}
+
+.ideodtcontainer{
+    display:flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+.images {
+    flex: 10%;
+
+}
+
+.ideodttext{
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.imggroup {
+    width:50%;
+    align-self: center;
+}
+
+
+
+.importancecontainer{
+    display:flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+.image2 {
+    flex: 10%;
+
+}
+
+.importancetext{
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.imggroup {
+    width:50%;
+    align-self: center;
+}

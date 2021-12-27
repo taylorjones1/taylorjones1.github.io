@@ -388,6 +388,36 @@ a {
     align-self: center;
 }
 
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 75%;
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: uppercase;
+}
+th {
+    color: #faa307;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #252422;
+}
+
+th, td {
+    padding: 0.6em
+}
+
+table, td {
+    background: #faa307;
+    border: 2px solid #252422
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary {

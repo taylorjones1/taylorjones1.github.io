@@ -395,6 +395,10 @@ table {
     border-spacing: 2px;
     margin-bottom: 2em;
     width: 75%;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    font-size: 19px;
+
 }
 
 caption {
@@ -407,6 +411,10 @@ th {
     font-weight: normal;
     text-align: left;
     background: #252422;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    font-size: 19px;
+
 }
 
 th, td {
@@ -414,8 +422,12 @@ th, td {
 }
 
 table, td {
-    background: #faa307;
-    border: 2px solid #252422
+    background: #252422;
+    border: 2px solid #faa307;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    font-size: 19px;
+
 }
 
 /* Media Queries: Tablet Landscape */

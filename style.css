@@ -404,6 +404,10 @@ table {
 caption {
     margin: 1.5em 0;
     text-transform: uppercase;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-style: italic;
+    font-size: 19px;
+
 }
 th {
     color: #faa307;

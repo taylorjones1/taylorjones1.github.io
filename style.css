@@ -405,7 +405,7 @@ caption {
     margin: 1.5em 0;
     text-transform: uppercase;
     font-family: "neue-haas-grotesk-text", sans-serif;
-    font-style: italic;
+    font-style: normal;
     font-size: 19px;
 
 }
@@ -427,7 +427,7 @@ th, td {
 
 table, td {
     background: #252422;
-    border: 2px solid #faa307;
+    border: 3px solid #faa307;
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-style: italic;
     font-size: 19px;

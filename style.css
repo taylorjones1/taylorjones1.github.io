@@ -381,8 +381,9 @@ a {
 }
 
 .imggroup {
-    width: 80%;
+    width: 100%;
     align-self: center;
+    height: auto;
 }
 
 table {

@@ -292,6 +292,7 @@ a {
 
 .dtimage {
     flex: 15%;
+    width: 70%;
 }
 
 .designtext {
@@ -355,7 +356,7 @@ a {
 }
 
 .imggroup {
-    width: 50%;
+    width: 70%;
     align-self: center;
 }
 
@@ -372,7 +373,6 @@ a {
 
 .image2 {
     flex: 10%;
-
 }
 
 .importancetext {
@@ -381,7 +381,7 @@ a {
 }
 
 .imggroup {
-    width: 50%;
+    width: 80%;
     align-self: center;
 }
 

@@ -256,7 +256,6 @@ blockquote {
 
 .introimage {
     flex: 35%;
-
 }
 
 .introtext {
@@ -268,7 +267,6 @@ blockquote {
 .ideo1 {
     width: 100%;
     align-items: center;
-
 }
 
 b {
@@ -294,7 +292,6 @@ a {
 
 .dtimage {
     flex: 15%;
-
 }
 
 .designtext {
@@ -432,6 +429,60 @@ table, td {
     font-style: italic;
     font-size: 19px;
 
+}
+
+.problemscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.problemstext {
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.problemsimg {
+    width: 50%;
+    align-self: center;
+}
+
+.conclusioncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.conclusiontext {
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.conclusionimg {
+    width: 50%;
+    align-self: center;
+}
+
+.bibliographycontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.bibliographytext {
+    flex: 60%;
+    margin: 0 3em 0 0;
+}
+
+.bibliographyimg {
+    width: 50%;
+    align-self: center;
 }
 
 /* Media Queries: Tablet Landscape */

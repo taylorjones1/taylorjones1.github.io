@@ -222,7 +222,11 @@ footer {
     color: #f9f9f9;
     background-color: #252422;
     width: 100%;
+}
 
+.buttons:hover{
+    color: #FAA307;
+    transition: all 0.3s ease-in-out;
 }
 
 .connections {

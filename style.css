@@ -346,6 +346,7 @@ a {
 .ideodttext {
     flex: 60%;
     margin: 0 3em 0 0;
+    width: 80%;
 }
 
 .imggroup {

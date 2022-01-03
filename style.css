@@ -520,6 +520,6 @@ body{background:#252422;font-family:"neue-haas-grotesk-text", sans-serif; font-s
     body{background:#252422;}
 }
 
-@media screen and (max-device-width:320px){
+@media screen and (max-device-width:414px){
     body{background:#252422;}
 }

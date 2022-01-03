@@ -445,7 +445,7 @@ table, td {
 }
 
 .problemsimg {
-    width: 80%;
+    width: 50%;
     align-items: flex-end;
     flex: 35%;
 }

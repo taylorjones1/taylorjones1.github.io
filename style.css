@@ -441,14 +441,14 @@ table, td {
 }
 
 .problemstext {
-    flex: 60%;
+    flex: 90%;
     margin: 0 3em 0 0;
 }
 
 .problemsimg {
     width: 50%;
     align-items: flex-end;
-    flex: 35%;
+    flex: 15%;
 }
 
 .conclusioncontainer {

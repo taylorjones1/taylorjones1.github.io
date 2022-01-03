@@ -276,6 +276,9 @@ b {
 
 li {
     list-style-type: none;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
 }
 
 a {
@@ -497,7 +500,6 @@ caption{
     font-style: italic;
     font-family: "neue-haas-grotesk-text", sans-serif;
     font-size: 0.9em;
-
 }
 
 @media screen and (max-width: 1060px) {

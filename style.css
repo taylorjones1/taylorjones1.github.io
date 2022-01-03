@@ -495,7 +495,13 @@ table, td {
     margin-right: 20px;
 }
 
-/* Media Queries: Tablet Landscape */
+caption{
+    font-style: italic;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-size: 0.9em;
+
+}
+
 @media screen and (max-width: 1060px) {
     #primary {
         width: 67%;

@@ -487,6 +487,12 @@ table, td {
     margin-top: auto;
 }
 
+.importanceimg{
+    width: 60%;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary {

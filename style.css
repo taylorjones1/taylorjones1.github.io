@@ -481,7 +481,7 @@ table, td {
 
 .bibliographycontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -494,7 +494,7 @@ table, td {
 
 .bibliographyimg {
     width: 60%;
-    align-items:center;
+    align-items: flex-start;
     flex: 35%;
 }
 

@@ -513,13 +513,13 @@ ol{
 
 *{margin:0;padding:0;outline:0;border:0;}
 
-body{background:#fcfcfc;font-family:Arial,Verdana,sans-serif;font-size:100%;}
+body{background:#252422;font-family:"neue-haas-grotesk-text", sans-serif; font-size:100%;}
 
 
 @media screen and (max-device-width:800px){
-    body{background:orange;}
+    body{background:#252422;}
 }
 
 @media screen and (max-device-width:320px){
-    body{background:red ;}
+    body{background:#252422;}
 }

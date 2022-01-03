@@ -367,9 +367,9 @@ a {
 }
 
 .importanceimg {
+    width: 70%;
+    align-items: flex-start;
     flex: 35%;
-    width: 50%;
-    align-items: flex-end;
 }
 
 .image2 {
@@ -447,9 +447,9 @@ table, td {
 }
 
 .problemsimg {
-    width: 50%;
-    align-items: flex-end;
-    flex: 40%;
+    width: 70%;
+    align-items: flex-start;
+    flex: 35%;
 }
 
 .conclusioncontainer {

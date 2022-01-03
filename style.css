@@ -449,7 +449,7 @@ table, td {
 .problemsimg {
     width: 50%;
     align-items: flex-end;
-    flex: 15%;
+    flex: 40%;
 }
 
 .conclusioncontainer {

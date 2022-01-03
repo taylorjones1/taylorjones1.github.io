@@ -368,8 +368,8 @@ a {
 
 .importanceimg {
     width: 70%;
-    align-items: flex-start;
-    flex: 35%;
+    align-items:flex-end;
+    flex: 50%;
 }
 
 .image2 {

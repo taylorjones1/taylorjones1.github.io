@@ -506,6 +506,11 @@ caption{
     font-size: 0.9em;
 }
 
+ol{
+    font-family: "neue-haas-grotesk-text", sans-serif;
+}
+
+
 @media screen and (max-width: 1060px) {
     #primary {
         width: 67%;

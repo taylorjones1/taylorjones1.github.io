@@ -484,7 +484,7 @@ table, td {
 
 .bibliographyimg {
     width: 60%;
-    align-items: flex-end;
+    align-items: flex;
     flex: 35%;
 }
 

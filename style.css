@@ -488,9 +488,11 @@ table, td {
 }
 
 .importanceimg{
-    width: 60%;
-    align-self: flex-end;
-    margin-top: auto;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 /* Media Queries: Tablet Landscape */

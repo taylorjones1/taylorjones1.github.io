@@ -455,7 +455,7 @@ table, td {
 
 .problemsimg {
     width: 70%;
-    align-items: flex-start;
+    align-items:baseline;
     flex: 35%;
 }
 

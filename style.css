@@ -442,7 +442,7 @@ table, td {
 
 .problemscontainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -455,7 +455,7 @@ table, td {
 
 .problemsimg {
     width: 70%;
-    align-items:baseline;
+    align-items:center;
     flex: 35%;
 }
 

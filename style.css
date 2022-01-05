@@ -511,18 +511,3 @@ ol{
 }
 
 
-@media only screen and (max-width: 900px) {
-
-    h1 {
-      font-size: 4.5rem
-  }
-
-@media only screen and (max-width: 650px) {
-
-h1 {
-font-size: 3rem
-}
-
-header h2 {
-font-size: 1.5rem;
-}
